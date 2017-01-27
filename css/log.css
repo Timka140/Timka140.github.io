@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2,p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*-------------------------------------------------------------------------------------*/
+* {
+    font: italic;
+}
+body {
+    background: #ddd;
+}
+.logo {
+    width: 100%;
+    height: 55px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*background: background-image: -webkit-gradient(linear, left top, left bottom, from(#003),#008olor));*/
+    background-image: -webkit-linear-gradient(top, #1E61B2, #1348BB);
+    background-image: -moz-linear-gradient(top, #1E61B2, #1348BB);
+    background-image: linear-gradient(to bottom, #1E61B2, #1348BB);
+}
+.logo h1 {
+    margin: 10px 0 0 10%;
+    position: absolute;
+    font-size: 36px;
+    color: #fff;
+}
+.log-win {
+    display: block;
+    width: 400px;
+    height: 200px;  
+    box-shadow: 0 0 20px rgba(34, 134, 250, 0.1);
+    margin: 14% auto;
+    border: 1px solid rgba(34, 134, 250, 0.2);
+    border-radius: 4px;
+    padding: 8px;
+    text-align: center;
+    background: #fff;
+    position: unset;
+}
+.log-win a {
+    text-align: center;
+    text-decoration: none;
+    color: #555;
+}
+.log-title {
+    font: italic 32px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.log-mail {
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin: 5px 20%;
+}
+
+.log-pas {
+    margin-top: 10px; 
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin: 5px 20%;
+}
+.btn-log {
+    margin: 20px 20%;
+    background: rgba(0, 0, 0, .7);
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    border: solid 0px;
+    cursor: pointer;
+}
+.btn-log:hover {
+    box-shadow: inset 0 0 20px rgba(34, 134, 250, .7);
+    background: #1E61B2;
+    transition: all .5s;
+}

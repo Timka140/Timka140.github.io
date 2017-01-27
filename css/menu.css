@@ -1,0 +1,84 @@
+.top-menu {
+	display: block;
+	width: auto;
+	height: 50px;
+	background: #2a2730;
+}
+.center-menu {
+	margin: 0 auto;
+	width:70%;
+	height: 50px;
+}
+.center-menu div {
+	margin: 0;
+	height: 50px;
+	display: inline-block;
+}
+.menu-left a{
+	color: #fff;
+	text-decoration: none;
+	padding: 14px 3px 0 0;
+	height: 50px;
+	display: inline-block;
+	font-size: 18px;
+	overflow: hidden;
+	text-overflow: clip;
+	white-space: nowrap;
+}
+.menu-left a:hover {
+	transition: all .4s ease-in-out;
+	color: #999;
+}
+.menu-left a i {
+	margin-left: 10px;
+	padding-right: 10px;
+}
+.search-right {
+	transition: all .4s ease-in-out;
+	float: right;
+	height: 50px;
+}
+.search-right li{
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;	
+	text-decoration: none;
+	padding: 14px 3px 0 0;
+	height: 50px;
+	cursor: pointer;
+}
+.search-right li:last-child {
+	display: none;
+}
+.search-right li:hover {
+	color: #999;
+}
+.search-right input{
+	width: 0px;
+	border: none;
+	display: none;
+	margin: 0 10px 0 0;
+	background: none;
+	color: #fff;
+}
+@media screen and (max-width: 950px) {
+	.center-menu {
+		width: 90%;
+	}
+	.menu-left a{
+		display: inline-block;
+	width: 31px;
+	margin: 0 13px 0 0;
+	font-size: 14px;
+}
+.menu-left a:hover {
+	width: 31px;
+}
+.menu-left a i{
+	font-size: 18px; 
+}
+
+}
+@media screen and (max-width: 445px) {
+	
+}

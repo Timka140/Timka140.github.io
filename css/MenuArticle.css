@@ -1,0 +1,29 @@
+.menu-article{
+    display: block;
+    border: 1px solid  rgba(163, 163, 163, .7);
+    box-shadow: 0 0 20px rgba(100, 100, 100, .4);
+    padding: 5px;
+}
+.menu-article ul li{
+    display: inline-block;
+    height: 30px;
+    margin-left: 5px;
+    /*padding: 0;*/
+      border: 1px solid rgba(163, 163, 163, .7);
+      border-radius: 5px;
+}
+.menu-article ul li a {
+    text-decoration: none;
+    color: #111;    
+}
+.menu-article ul li:hover {
+    transition: all .2s ease-in-out;
+    background: rgba(163, 163, 163, .5);
+}
+.menu-article ul li a i{
+    padding: 5px;
+    text-align: center;
+    height: 20px;
+    width: 40px;
+    font-size: 18px;
+}

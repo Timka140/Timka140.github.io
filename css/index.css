@@ -1,0 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*-------------------------------------------------------------------------------------*/
+* {
+	transition: all .2s ease-in-out;
+	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+body {
+	background: #ddd;
+}
+h2 {
+	color: #757575;
+}
+p {
+	color: #292828;
+}
+.not-found {
+	height: 800px;
+	text-align: center;
+}
+.not-found h1 {
+	margin: 20%;
+}
+.content-user {
+	background: black;
+	height: 30px;
+}
+.image-title-article {
+	display: block;
+}
+.image-title-article img {
+	margin: 3px 0 15px 0;
+}
+.article-list {
+	background: #fff;
+}
+.article-list p {
+	margin: 14px 0;
+}
+/*Окно пользователя*/
+/*____________________________________________________*/
+.user-info {
+	margin: 5px 0 5px 10px;
+	display: block;
+	position: fixed;
+	width: 300px;
+	height: 110px;
+	background: rgba(20, 20, 20, .6);
+	border-radius: 4px;
+	box-shadow: inset 0 0 15px rgba(20, 20, 20, .2);
+	z-index: 999;
+	padding: 15px 0 0 5px; 
+	color: #fff;
+}
+.user-info div {
+	display: inline-block;
+}
+.user-info div p {
+	text-align: center;
+	padding: 0 0 0 10px;
+}
+.img-user {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+.user-info a {
+	width: auto;
+	height: 20px;
+	display: block;
+	text-decoration: none;
+	float: right;
+	margin: -12px 30px 0 0;
+	color: #fff;
+	cursor: pointer;
+}
+.user-info a:hover {
+	color: #999;
+}
+/*Подвал сайта*/
+/*______________________________________________________________*/
+
+/*.site-bottom {
+    display: block;
+    width: 100%;
+    margin-top: 10px; 
+    border-top: 1px solid #999;
+    text-align: center;
+    background: #2a2730;
+    height: 200px;
+    padding-top: 20px; 
+}
+.site-bottom ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0 0 10px;
+}
+.site-bottom a:hover {
+    transition: all .5s ease-in;
+    color: #999;
+}
+.site-bottom ul {
+    padding: 0; 
+    display: block;
+    
+}
+.site-bottom li {
+	margin-top: 30px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: auto;
+    height: 20px;
+    padding: 2px;
+}
+.site-bottom p{
+    text-align: center;
+    color: #99979c;
+}
+@media screen and (max-width: 552px) {
+	.site-bottom ul li a {
+		margin: 0 0 0 5px;
+
+}
+	.site-bottom ul li a {
+		font-size: 13px;
+	}
+	.site-bottom p{
+    font-size: 13px;
+}
+}	
+@media screen and (max-width: 445px) {
+	h1 {
+		font-size: 26px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	.site-bottom ul li a {
+		font-size: 11px;
+	}
+	.site-bottom p{
+    font-size: 11px;
+}
+}
+@media screen and (max-width: 405px) {
+	.site-bottom {
+		padding-top: 60px; 
+	}
+		.site-bottom li {
+	margin-top: 4px;
+}
+		.site-bottom ul li a {
+		margin: 0 0 0 2px;
+}
+	.site-bottom ul li a {
+		font-size: 9px;
+	}
+	.site-bottom p{
+    font-size: 9px;
+}
+}	*/
